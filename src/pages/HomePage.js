@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import './HomePage.css'
-import InputField from '../component/InputField'
+import InputField from '../components/InputField'
 import axios from 'axios';
-import Product from '../component/Product';
+import Product from '../components/Product';
 
 const HomePage = () => {
     const [productUrl, setProductUrl] = useState("");
